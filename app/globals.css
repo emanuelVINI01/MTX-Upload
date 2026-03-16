@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --blue-main: #1E90FF;
+  --blue-light: #63B3ED;
+  --purple-neon: #9F7AEA;
+  --green-soft: #48BB78;
+  --yellow-alert: #ECC94B;
+  --gray-dark: #2D3748;
+  --gray-light: #E2E8F0;
+}
+
+body {
+  background-color: var(--gray-dark);
+  color: var(--gray-light)!important;
+}
+
+/* Exemplo de utilitários Tailwind usando var() */
+.bg-blue-main {
+  background-color: var(--blue-main);
+}
+.text-blue-main {
+  color: var(--blue-main);
+}
+
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+.text-blue-light {
+  color: var(--blue-light);
+}
+
+.bg-purple-neon {
+  background-color: var(--purple-neon);
+}
+.text-purple-neon {
+  color: var(--purple-neon);
+}
+
+.bg-green-soft {
+  background-color: var(--green-soft);
+}
+.text-green-soft {
+  color: var(--green-soft);
+}
+
+.bg-yellow-alert {
+  background-color: var(--yellow-alert);
+}
+.text-yellow-alert {
+  color: var(--yellow-alert);
+}
+
+.bg-gray-dark {
+  background-color: var(--gray-dark);
+}
+.text-gray-dark {
+  color: var(--gray-dark);
+}
+
+.bg-gray-light {
+  background-color: var(--gray-light);
+}
+.text-gray-light {
+  color: var(--gray-light);
+}
